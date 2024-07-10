@@ -1,0 +1,563 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.offcanvas .nav-link {
+    text-transform: uppercase;
+}
+.nav-btn .btn {
+    background: #1C3946;
+    color: #fff;
+}
+.nav-btn .btn:hover {
+    background: #B7D4DB;
+}
+.navbar{
+    transition: all 0.5s;
+}
+.navbar-scrolled {
+    background-color: white;
+    box-shadow: 0 3px 10px #0000005b;;
+}
+.navbar a {
+    letter-spacing: 2px;
+}
+body .page-content {
+    margin-top: 50px;
+}
+.judul-halaman {
+    text-align: center;
+    font-size: 4rem;
+    color: #333;
+    padding: 2rem;
+    background: rgba(9, 84, 145, 0.151);
+    border-radius: 1rem;
+}
+
+.judul-halaman span{
+    color: rgb(44, 67, 116);
+}
+
+/*---- Footer End ----*/
+.footer {
+	background: #1C3946;
+}
+.footer-top {
+    background: #B7D4DB;
+    padding: 20px;
+}
+.footer-bottom {
+    padding: 20px;
+}
+.socials i {
+	font-size: 22px;
+	margin-left: 15px;
+}
+.footer-content .card-area i {
+	font-size: 20px;
+	margin-right: 10px;
+}
+.footer-content ul {
+	padding: 0;
+}
+.footer-content ul li a {
+	text-decoration: none;
+	color: #fff;
+	line-height: 2;
+	font-weight: 100;
+}
+.footer-content h5 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+}
+.footer iframe{
+    height: 200px;
+    width: 200px;
+}
+/*---- Footer End ----*/
+
+
+/*---- Home Page Start ----*/
+.banner {
+    background: 
+        linear-gradient(
+            to top right, #75aac2, #ffffff
+        );
+    padding: 100px 0;
+}
+.text-banner{
+    color: #1C3946;
+}
+.banner-btn .btn-banner {
+    background: #1C3946;
+    color: white;
+}
+.banner-btn .btn-banner:hover {
+    background: #6d8296;
+}
+.search-panel {
+    box-shadow: 0 1px 20px #0000005b;
+    background: white;
+    padding: 20px 0 10px;
+    border-radius: 20px;
+}
+.search {
+    position: sticky;
+    margin-top: -60px;
+}
+.search-btn .btn {
+    background: #B7D4DB;
+}
+.search-btn .btn:hover {
+    background: #1C3946;
+    color: white;
+}
+
+.card-img{
+    height: 400px;
+    padding: 10px;
+}
+.card img {
+    border-radius: 25px;
+    position: relative;
+}
+.destination .rating, .destination .favorite {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.destination .favorite {
+    margin-left: 100px;
+}
+.destination .card{
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.destination .card-body{
+    padding: 25px;
+    margin-top: -15px;
+}
+.destination .more-btn {
+    padding: 5px 100px;
+    background: #B7D4DB;
+    border-radius: 0 0 25px 25px;
+    font-weight: bold;
+}
+.destination .more-btn:hover {
+    background: #1C3946;
+    color: white;
+}
+
+.statistic {
+    background: #1C3946;
+    padding: 50px 0;
+}
+.statistic .card {
+    border-radius: 50px;
+}
+.statistic i {
+    font-size: 80px;
+    background: #B7D4DB;
+    padding: 30px;
+    border-radius: 100%;
+    color: #1C3946;
+}
+.statistic h5 {
+    margin: 20px 0 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+.statistic p {
+    font-size: 24px;
+}
+.review-highlight .card{
+    box-shadow: rgba(0, 0, 0, 0.299) 5px 1px 10px;
+}
+.review-highlight {
+    background-color: #B7D4DB;
+}
+.contact-highlight .card{
+    background: #1C3946;
+    color: white;
+    padding: 20px;
+}
+.contact-highlight .btn {
+    background-color: #B7D4DB;
+    border: none;
+    color: black;
+}
+.contact-highlight .btn:hover {
+    background-color: #75aac2;
+}
+.reason h1{
+    margin-bottom: 50px;
+}
+/*---- Home Page End ----*/
+
+
+/*---- Contact Page Start ----*/
+.contact .jumbotron {
+    position: relative;
+    background: url(../../gambar/image-contact.png);
+    background-size: cover;
+    height: 700px;
+    border-radius: 20px;
+}
+.contact-text {
+    margin-left: 50px;
+    margin-top: 50px;
+    color: rgb(213, 238, 255);
+}
+.contact-text span {
+    font-size: 50px;
+    font-weight: 600;
+}
+.contact-text p {
+    margin-top: 5px;
+    font-size: 23px;
+    color: rgb(213, 238, 255);
+}
+.input1::-webkit-input-placeholder{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.massage::-webkit-input-placeholder{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.input-box input{
+    width: 340px;
+    border: none;
+    border-bottom: 1px solid rgb(216, 211, 211);
+    font-size: 20px;
+    background: none;
+    height: 50px;
+    font-weight: bold;
+
+}
+.massage{
+    width: 340px;
+    margin-top: 12px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    font-size: 20px;
+    background: none;
+    color:#ffffff ;
+    font-weight: bold;
+}
+.contact-form {
+    margin-top: 15rem;
+}
+.ataraxia-contact{
+    font-size: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.link:hover{
+    color: #82837f;
+}
+.icon:hover{
+    color:  #82837f;
+}
+/*---- Contact Page End ----*/
+
+
+.services-area .card{
+    height: 250px;
+    align-items: center;
+    box-shadow: 3px 3px 11px rgba(128, 128, 128, 0.397);
+    cursor: pointer;
+}
+.icon_service{
+    font-size: 83px;
+    color: rgb(97, 169, 228);
+}
+.heading_services{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.services_content:hover{
+    background-color: rgb(95, 183, 255);
+    transform: translateY(-8px);
+    transition: 0.3s;
+}
+
+.services_content:hover .icon_service,
+.services_content:hover .heading_services{
+    color: white !important;
+}
+
+
+/*---- Team Page Start ----*/
+/* team */
+.team {
+    padding: 100px 0;
+}
+.profile-card{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    background-color: #dcdbdb;
+    padding: 30px;
+    border-radius: 50%;
+    box-shadow: -5px 8px 45px rgba(51, 51, 51, 0.126);
+    transition: all .4s;
+    margin: 0 20px 50px;
+}
+.profile-card:hover{
+    border-radius: 10px;
+    height: 260px;
+}
+.profile-card .img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.profile-card:hover img{
+    border-radius: 10px;
+    transform: translateY(-70px);
+}
+.img img{
+    width: 100%;
+    border-radius: 50%;
+    transition: all .4s;
+}
+.caption{
+    text-align: center;
+    transform: translateY(-90px);
+    opacity: 0;
+    transition: all .5s;
+}
+.profile-card:hover .caption{
+    opacity: 1;
+}
+.caption h3{
+    font-size: 21px;
+    color: #1C3946;
+    font-weight: 600;
+}
+.caption p{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 2px 0 12px 0;
+}
+.caption .social-links i{
+    font-size: 21px;
+    margin: 0 3px;
+    color: #333;
+    transition: all .4s;
+}
+.caption .social-links i:hover{
+    color: #B7D4DB;
+}
+/*---- Team Page Start ----*/
+
+.detail .villa, .detail .flight {
+    overflow-x: scroll;
+}
+.cat-2 {
+    padding-top: 32px;
+}
+.detail .flight-card {
+    border: 1px solid #f4f4f4;
+    border-radius: 20px;
+}
+
+
+/*---- Booking Page Start ----*/
+/*booking*/
+.booking .card{
+    border: none;
+    box-shadow: 0 0 5px #0000002a;
+}
+.booking span{
+    font-size: 14px;
+    color: #6f6f6f;
+}
+.benefits p {
+    line-height: 5px;
+}
+.benefits i {
+    background: #75aac2;
+    border-radius: 100%;
+    padding: 5px;
+    font-size: xx-small;
+} 
+/*---- Booking Page End ----*/
+
+.det label {
+    width: 100%;
+    background: #f4f4f4;
+
+}
+.radio:checked+label {
+    background-color: #B7D4DB;
+}
+
+/*---- Payment Page Start ----*/
+/* payment */
+.payment-text{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+.border,
+.payment-text::after{
+    content: "";
+    width: 30px;
+    height: 4px;
+    background-color: rgba(0, 0, 0,0.1);
+    margin-top: 5px;
+}
+.payment-name{
+    margin-top: 10px;
+}
+.payment-method label {
+    font-size: 13px;
+    background: #f4f4f4;
+}
+.payment .card, .payment .btn {
+    border-radius: 0;
+}
+/*---- Payment Page End ----*/
+
+.video-container{
+    position: relative;
+}
+.video-container video{
+    border: 1.5rem solid #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.1);
+    object-fit: cover;
+    height: 18rem;
+}
+.video-container h3{
+    position:absolute;
+    top: 48%; 
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    background: #ffffffa6;
+    padding: 1rem 3rem;
+    mix-blend-mode: screen;
+    text-align: center;
+} 
+
+.about-content{
+    line-height: 27px;
+}
+.about-content h2{
+    font-size: 3rem;
+    color: #6d8296;
+}
+.about-content p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+
+.review p {
+    font-size: 14px;
+    color: #666;
+}
+.review .author {
+    font-style: italic;
+    line-height: 0px;
+}
+.review .rating i {
+    font-size: 20px;
+}
+.review .card {
+    box-shadow: 0 1px 10px #00000032;
+    border-radius: 20px;
+}
+
+
+
+/*---- Profile Page Start ----*/
+/*Profile*/
+.profile .background-profile{
+    position: relative;
+}
+.profile .profile-content {
+    position: sticky;
+    margin-top: -30px;
+    background: #ffffffdc;
+    padding: 20px 0;
+}
+.profile .profile-content img{
+    position: relative;
+}
+.profile-content .edit{
+    background: #a3c8d1d2;
+    position: sticky;
+    border-radius: 0 0 5px 0;
+    padding: 10px;
+    color: black;
+    margin-top: -44px;
+    margin-left: 105px;
+    width: 45px;
+}
+
+.loc i{
+    font-size: 12px;
+    color: #82837f;
+}
+
+.loc span{
+    color: #82837f;
+}
+
+.menu-profile a{
+    color: #000000;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.menu-profile i{
+    font-size: 1.5rem;
+}
+
+@media (min-width: 992px) {
+    .card-img{
+        height: 200px;
+    }
+    .tiket .card {
+        margin: 0 200px;
+    }
+}
+@media (min-width: 768px) {
+    .ataraxia-contact{
+        margin-top: 13.5rem;
+        font-size: 16px;
+    }
+}
+@media (max-width: 575.98px) {
+    .reason-content p {
+        font-size: 12px;
+    }
+    .footer {
+        text-align: center;
+    }
+    .review .card {
+        margin: 20px 0;
+    }
+    .contact-form {
+        margin: 0 5px;
+        margin-top: 5rem;
+    }
+    .ataraxia-contact{
+        margin-top: 10rem;
+    }
+}
